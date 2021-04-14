@@ -20,6 +20,8 @@
   --z-fixed: 100;
 }
 
+
+
 @media screen and (min-width: 768px) {
   :root {
     --normal-font-size: 1rem;
@@ -304,20 +306,25 @@ img {
 }
 
 .div__arrow{
+  margin-bottom: 15px;
   text-align: center;
   position: relative;
   top: -125px;
 }
 
-  /*===== Footer =====*/
-  footer{
-    position: absolute;
-    bottom:0px;
-    width:100%;
-    padding: 10px 5px;
-    background-color: var(--dark-color);
+.div__arrow:active {
+  position: relative;
+  left: 15px;
+  animation: 2s;
+}
 
-  }
-  .footer{
-    text-align: center;
-  }
+  /*===== Footer =====*/
+footer{
+  position: absolute;
+  bottom:0px;
+  width:100%;
+  padding: 10px 5px;
+  background-color: var(--dark-color);
+  text-align: center;
+
+}

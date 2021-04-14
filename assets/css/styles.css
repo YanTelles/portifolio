@@ -38,8 +38,6 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   font-weight: 500;
-  padding-top: 90px;
-  padding: 20px;
 }
 
 ul {
@@ -100,6 +98,10 @@ img {
 
 /*===== NAV =====*/
 @media screen and (max-width: 768px) {
+  body{
+    padding-top: 30px;
+  }
+
   .nav {
     position: fixed;
     top: 0;
@@ -276,17 +278,20 @@ img {
 }
 
 @media screen and (min-width: 1024px) {
-  body{
-    padding-top: 80px;
-
-  }
   .bd-grid {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .div__arrow{
+    color: var(--white-color);
+    text-align: center;
+  }
 }
 
+  /*===== Avatar =====*/
 .section__avatar{
+  
   display: -webkit-flex;
   align-items: center;
   -webkit-justify-content: center;
@@ -295,14 +300,24 @@ img {
 }
 
 .section__avatar img{
-  max-height: 45em;
+  max-height: 40em;
 }
 
-.div__infor{
-  color: var(--white-color);
-  background-color: var(--dark-color-alt);
+.div__arrow{
   text-align: center;
   position: relative;
-  padding: 2px 25px 13px 10px;
-  top: -128px;
+  top: -115px;
 }
+
+  /*===== Footer =====*/
+  footer{
+    margin-top: 5vw;
+    position: relative;
+    bottom: 0px;
+    padding: 20px;
+    background-color: var(--dark-color);
+
+  }
+  .footer{
+    text-align: center;
+  }

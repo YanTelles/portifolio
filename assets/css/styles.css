@@ -311,10 +311,10 @@ img {
 
   /*===== Footer =====*/
   footer{
-    margin-top: 5vw;
-    position: relative;
-    bottom: 0px;
-    padding: 20px;
+    position: absolute;
+    bottom:0px;
+    width:100%;
+    padding: 10px 5px;
     background-color: var(--dark-color);
 
   }

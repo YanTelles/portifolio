@@ -317,7 +317,7 @@ img {
 .section__avatar{
   
   display: -webkit-flex;
-  align-items: center;
+  align-items: normal;
   -webkit-justify-content: center;
   justify-content: center;
   position: relative;
@@ -331,14 +331,15 @@ img {
   margin-top: 15px;
   text-align: center;
   position: relative;
-  top: -125px;
   left: -13px;
+  top: 30px;
 }
 
 .div__arrow:active {
   position: relative;
-  left: -10px;
   animation: 2s;
+  left: -20px;
+
 }
 
   /*===== Footer =====*/

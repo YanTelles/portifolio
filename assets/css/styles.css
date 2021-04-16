@@ -5,10 +5,10 @@
   --header-height: 3rem;
   
 
-  --first-color: #3664F4;
+  --first-color: #56d537;
   --dark-color: #070D1F;
   --dark-color-alt: #282B3A;
-  --white-color: #E6E7E9;
+  --white-color: #FFF;
 
 
   --body-font: 'Poppins', sans-serif;
@@ -223,8 +223,8 @@ img {
 }
 
 /*Active menu*/
-.active {
-  color: var(--first-color);
+#active {
+  color: var(--dark-color);
 }
 
 /*===== MEDIA QUERIES =====*/
@@ -294,7 +294,7 @@ img {
   .nav__link:hover {
     background-color: var(--first-color);
   }
-  .active {
+  #active {
     background-color: var(--first-color);
     color: var(--white-color);
   }
@@ -337,9 +337,21 @@ img {
 
 .div__arrow:active {
   position: relative;
-  animation: 2s;
-  left: -20px;
-
+  animation: loading .05s linear infinite;
+}
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
   /*===== Footer =====*/

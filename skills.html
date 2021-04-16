@@ -3,15 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/skills.css">
+        
 
         <title>YanTelles - Portifólio</title>
     </head>
     <body>
-        <div class="loader">
-            <img src="assets/img/load-gif.gif" alt="">
-        </div>
-
         <header class="header">
             <a href="#" class="header__logo">Yan Telles</a>
 
@@ -35,9 +32,9 @@
     
                     <div class="nav__menu">
                         <ul class="nav__list">
-                            <li class="nav__item"><a href="index.html" class="nav__link" id="active">Home</a></li>
+                            <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
                             <li class="nav__item"><a href="#" class="nav__link">About</a></li>
-                            <li class="nav__item"><a href="skills.html" class="nav__link">Skills</a></li>
+                            <li class="nav__item"><a href="skills.html" class="nav__link" id="active">Skills</a></li>
                             <li class="nav__item"><a href="#" class="nav__link">Portfolio</a></li>
                             <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
                         </ul>
@@ -53,22 +50,34 @@
             </nav>
         </header>
 
+        
         <section class="section__avatar">
-            <div class="div__img">
-                <img src="assets/img/Yanzito-1.png">
-            </div>
-            <section>
-                <div class="div__arrows">
-                    <div class="div__arrow">
-                        <img src="assets/img/arrow-1.png">
-                    </div>
-                    <div class="div__arrow">
-                        <img src="assets/img/arrow-2.png">
-                    </div>
+            <img src="assets/img/Yanzito-2.png" alt="">
+        </section>
+
+        <section class="section__skills"></section>
+            <div class="skills">
+                <div class="skill">
+                  <div class="skill-name">HTML</div>
+                  <div class="skill-bar">
+                    <div class="skill-per" per="90"></div>
+                  </div>
                 </div>
-                
-            </section>
-            <img style="height: 45%; position: absolute; bottom: 0;" src="assets/img/dino.png">
+          
+                <div class="skill">
+                  <div class="skill-name">CSS</div>
+                  <div class="skill-bar">
+                    <div class="skill-per" per="70"></div>
+                  </div>
+                </div>
+          
+                <div class="skill">
+                  <div class="skill-name">Javascript</div>
+                  <div class="skill-bar">
+                    <div class="skill-per" per="60"></div>
+                  </div>
+                </div>
+            </div>
         </section>
 
         <footer>
@@ -80,6 +89,7 @@
             </div>
         </footer>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
         <script src="assets/js/main.js"></script>
     </body>

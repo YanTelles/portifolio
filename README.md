@@ -24,5 +24,4 @@ Me conheça melhor❤️
 ### Autor
 ---
 <img style="border-radius: 50%;" src="https://i.ibb.co/p2jkMSh/yan.jpg" width="100px;" alt=""/>
-<p>Yan Telles</p>
 Feito com ❤️ por Yan Telles 👋🏽 Entre em contato!

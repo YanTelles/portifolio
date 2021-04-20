@@ -79,6 +79,10 @@ img {
   height: auto;
 }
 
+h1{
+  font-size: 2pc;
+}
+
 .bd-grid {
   max-width: 1024px;
   display: -ms-grid;
@@ -179,7 +183,6 @@ img {
   width: 46px;
 }
 
-
 .nav__name {
   display: block;
   color: var(--white-color);
@@ -224,7 +227,7 @@ img {
 
 /*Active menu*/
 #active {
-  color: var(--dark-color);
+  color: var(--first-color);
 }
 
 /*===== MEDIA QUERIES =====*/
@@ -244,7 +247,6 @@ img {
   }
 
   .nav__content {
-    -ms-grid-columns: (max-content)[3];
         grid-template-columns: repeat(3, -webkit-max-content);
         grid-template-columns: repeat(3, max-content);
     -ms-grid-rows: 1fr;
@@ -307,10 +309,6 @@ img {
     margin-right: auto;
   }
 
-  .div__arrow{
-    color: var(--white-color);
-    text-align: center;
-  }
 }
 
   /*===== Avatar =====*/
@@ -333,6 +331,7 @@ img {
   position: relative;
   left: -13px;
   top: 30px;
+  outline: none;
 }
 
 .div__arrow:active {
@@ -362,5 +361,4 @@ footer{
   padding: 10px 5px;
   background-color: var(--dark-color);
   text-align: center;
-
 }

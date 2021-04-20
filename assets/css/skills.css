@@ -202,7 +202,7 @@ img {
 
 /*Active menu*/
 #active {
-  color: var(--dark-color);
+  color: var(--first-color);
 }
 
 /*===== MEDIA QUERIES =====*/
@@ -222,7 +222,6 @@ img {
   }
 
   .nav__content {
-    -ms-grid-columns: (max-content)[3];
         grid-template-columns: repeat(3, -webkit-max-content);
         grid-template-columns: repeat(3, max-content);
     -ms-grid-rows: 1fr;
@@ -290,9 +289,6 @@ img {
     text-align: center;
   }
 }
-
-
-  
   .skills{
     width: 100%;
     max-width: 600px;
@@ -303,7 +299,7 @@ img {
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
-    margin: 20px 0;
+    margin: 10px 25px;
   }
   
   .skill-bar{
@@ -347,7 +343,7 @@ img {
   }
 
   .section__avatar img{
-    max-width: 125%;
+    max-width: 135%;
     height: 28em;
   }
 
